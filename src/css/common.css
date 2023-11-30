@@ -16,3 +16,64 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.start-btn,
+.btn button {
+  display: block;
+  margin: auto;
+  padding: 15px 20px;
+  font-size: 30px;
+  cursor: pointer;
+  background-color: #212121;
+  border: none;
+  color: #fafafa;
+  border-radius: 5%;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.btn button:disabled {
+  opacity: 50%;
+  cursor: not-allowed;
+}
+
+.start-btn:disabled {
+  opacity: 50%;
+  cursor: not-allowed;
+}
+
+#datetime-picker {
+  margin: auto;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.value {
+  font-size: 50px;
+  text-decoration: solid;
+}
